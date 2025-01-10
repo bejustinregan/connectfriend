@@ -1,0 +1,52 @@
+:root {
+    --primary: #ff5722; /* Mengubah warna primer */
+    --secondary: #3f51b5; /* Mengubah warna sekunder */
+    --light: #f1f1f1; /* Mengubah warna terang */
+    --dark: #212121; /* Mengubah warna gelap */
+}
+
+body {
+    font-family: "Roboto", sans-serif; /* Mengubah font */
+    background-color: var(--light); /* Mengubah latar belakang */
+}
+
+header {
+    background-color: var(--primary);
+    color: white;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3rem; /* Mengubah ukuran font judul */
+}
+
+header p {
+    font-size: 1.25rem; /* Mengubah ukuran font deskripsi */
+}
+
+.navbar {
+    background-color: var(--secondary); /* Mengubah warna navbar */
+}
+
+.navbar .nav-link {
+    color: white; /* Mengubah warna teks navbar */
+}
+
+.navbar .nav-link:hover {
+    color: var(--primary); /* Mengubah warna saat hover */
+}
+
+.footer {
+    background-color: var(--dark); /* Mengubah warna footer */
+    color: white; /* Mengubah warna teks footer */
+}
+
+.footer a {
+    color: var(--light); /* Mengubah warna tautan di footer */
+}
+
+.footer a:hover {
+    color: var(--primary); /* Mengubah warna tautan saat hover */
+}
+
+/* Tambahkan lebih banyak gaya sesuai kebutuhan */
